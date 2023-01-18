@@ -111,7 +111,8 @@ Developed by SRINIDHI SENTHIL 22001408
 </form>
 </body>
 </html>
-
+```
+```
 Views:
 from django.shortcuts import render
 
@@ -134,7 +135,8 @@ def rectarea(request):
         context['b'] = b
         print('Area=', area)
     return render(request,"myapp/math.html",context)
-    
+  ```
+  ```
     Urls:
 from django.contrib import admin
 from django.urls import path
